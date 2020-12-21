@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>PageChange</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DryIoc.dll" Version="4.6.0" />
+    <PackageReference Include="Prism.DryIoc" Version="8.0.0.1909" />
+    <PackageReference Include="ReactiveProperty.WPF" Version="7.5.1" />
+  </ItemGroup>
+</Project>
